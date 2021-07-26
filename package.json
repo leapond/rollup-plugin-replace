@@ -1,0 +1,40 @@
+{
+  "name": "leapond-rollup-plugin-replace",
+  "version": "1.0.0",
+  "description": "Rollup replace plugin with mixed finder support(String, RegExp).",
+  "main": "./dist/replace.bundle.cjs.js",
+  "module": "./dist/replace.bundle.es.js",
+  "scripts": {
+    "build": "rollup -c --environment NODE_ENV:production",
+    "dev": "rollup -wc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leapond/rollup-plugin-replace.git"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "replace",
+    "string",
+    "RegExp",
+    "mix",
+    "leapond"
+  ],
+  "author": "Leapond, Inc. (https://www.leapond.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leapond/rollup-plugin-replace/issues"
+  },
+  "homepage": "https://github.com/leapond/rollup-plugin-replace#readme",
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "magic-string": "^0.25.7",
+    "rollup": "^2.54.0"
+  }
+}
