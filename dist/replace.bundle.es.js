@@ -53,7 +53,7 @@ function leapondReplace(options) {
 
       return {
         code: code,
-        map: {mappings: ''}
+        map: this.getCombinedSourcemap()
       };
     }
   };

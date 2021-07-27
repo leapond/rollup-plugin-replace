@@ -1,6 +1,6 @@
 {
   "name": "leapond-rollup-plugin-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rollup replace plugin with mixed finder support(String, RegExp).",
   "main": "./dist/replace.bundle.cjs.js",
   "module": "./dist/replace.bundle.es.js",
